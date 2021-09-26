@@ -30,7 +30,6 @@
        </a>
      </div>
 
-asdasdasd
 
 
      <router-view /> <!--  ebbe töltődik be a router, vue 2.0 verziónál a gyökérben kell lennie, 3 masnál nem, erre figyelj -->
