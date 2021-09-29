@@ -22,6 +22,24 @@ const routes = [
     component: () =>
       import(/* webpackChunkName: "about" */ "../views/Gepkolcsonzes.vue"),
   },
+  {
+    path: "/ozon",
+    component: () =>
+        import("../views/ozon.vue"),
+  },{
+    path: "/arlista",
+    component: () =>
+        import("../views/arlista.vue"),
+  },{
+    path: "/kapcsolat",
+    component: () =>
+        import("../views/kapcsolat.vue"),
+  },{
+    path: "/palyazat",
+    component: () =>
+        import("../views/palyazat.vue"),
+  },
+
 ];
 
 const router = new VueRouter({

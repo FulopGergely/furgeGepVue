@@ -1,4 +1,4 @@
-# furgegep2
+npm run serve# furgegep2
 
 ## Project setup
 ```

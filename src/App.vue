@@ -22,7 +22,6 @@
       <router-link to="/gepkolcsonzes">Gépkölcsönzés</router-link>
       <router-link to="/ozon">Ózongenerátor</router-link>
       <router-link to="/arlista">Árlista</router-link>
-      <router-link to="/dokumentumok">Dokumentumok</router-link>
       <router-link to="/kapcsolat">Kapcsolat</router-link>
       <router-link to="/palyazat">Pályázat</router-link>
       <a href="javascript:void(0);" class="icon" @click="myFunction()">
@@ -165,6 +164,17 @@
    background-color: #ffc11c;
    height: 1px;
    margin: 0px;
+ }
+ h4{
+   font-family: 'Roboto Slab', serif;
+   font-size: 2.4em;
+   text-transform: uppercase;
+   padding-bottom: 5px;
+   margin-bottom: 20px;
+   margin-top: 20px;
+   word-spacing: 10px;
+   text-align-last: center;
+   text-align: center;
  }
 
  </style>
