@@ -15,7 +15,7 @@
       <p>Tervezett vagy tényleges befejezési dátum: 2020.09.12.</p>
       <p>Projekt azonosító száma: GINOP-5.1.10-18.</p>
 
-      <img  src="../assets/indexPage/szechenyi_palyazat.png" class="img-responsive float-md-start" height="200"  alt="szechenyi"/>
+      <img class="img-responsive align-text-top" src="../assets/indexPage/szechenyi_palyazat.png" height="200"  alt="szechenyi"/>
 
 
     </div>
