@@ -38,6 +38,10 @@ const routes = [
     path: "/palyazat",
     component: () =>
         import("../views/palyazat.vue"),
+  },{
+    path: "/table",
+    component: () =>
+        import("../views/table.vue"),
   },
 
 ];

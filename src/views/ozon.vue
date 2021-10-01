@@ -1,7 +1,7 @@
 <template>
   <div>
 
-    <h1>Ózongenerátor</h1>
+
 
     <div class="mid">
 
