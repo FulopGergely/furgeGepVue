@@ -7,6 +7,12 @@
     <div class="d-flex justify-content-center">
       <b-table hover :items="machines"></b-table>
     </div>
+
+    <div v-for="item in machines" :key="item.name" >
+
+      {{ item.name }}
+
+    </div>
   </div>
 </template>
 
