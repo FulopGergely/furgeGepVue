@@ -46,5 +46,11 @@
 .container{
   position: relative;
 }
+@media screen and (max-width: 800px) {
+  .topright{
+    display: none;
+  }
+
+}
 
 </style>

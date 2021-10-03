@@ -6,7 +6,7 @@
 
 
 
-    <div class="d-flex justify-content-center" style="overflow-x:auto;">
+    <div class="d-flex justify-content-center">
 
       <table class="m-5 " >
 
@@ -209,7 +209,7 @@ export default {
           price1: 7000,
           price2: 6600,
           price3: 6200,
-          height: 160
+          height: 170
         },
         {
           id: 15,
@@ -220,7 +220,7 @@ export default {
           price1: "",
           price2: "",
           price3: "",
-          height: 160
+          height: 140
         },
         {
           id: 16,
@@ -231,7 +231,7 @@ export default {
           price1: "",
           price2: "",
           price3: "",
-          height: 160
+          height: 130
         }
       ]
     }
