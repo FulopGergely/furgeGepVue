@@ -6,13 +6,10 @@
 
   <h4>Árlista</h4>
 
-
-    <div class="d-flex justify-content-center">
-
-
-    <img src="../assets/indexPage/arlista.png" class="img-responsive" height="2000" />
-
+    <div class="box">
+      <img src="../assets/indexPage/arlista.png" />
     </div>
+
 
   </div>
 </template>
