@@ -19,15 +19,19 @@
 
 
     <div class="topnav" id="myTopnav">
-      <router-link to="/gepkolcsonzes">Gépkölcsönzés</router-link>
-      <router-link to="/ozon">Ózongenerátor</router-link>
-      <router-link to="/arlista">Árlista</router-link>
-      <router-link to="/kapcsolat">Kapcsolat</router-link>
-      <router-link to="/palyazat">Pályázat</router-link>
-      <a href="javascript:void(0);" class="icon" @click="myFunction()">
-         <b-icon-list></b-icon-list>
-       </a>
-     </div>
+      <div class="menu" >
+          <router-link to="/gepkolcsonzes">Gépkölcsönzés</router-link>
+          <router-link to="/ozon">Ózongenerátor</router-link>
+          <router-link to="/arlista">Árlista</router-link>
+          <router-link to="/kapcsolat">Kapcsolat</router-link>
+          <router-link to="/palyazat">Pályázat</router-link>
+        <a href="javascript:void(0);" class="icon " @click="myFunction()">
+          <b-icon-list></b-icon-list>
+        </a>
+      </div>
+    </div>
+
+
 
 
 
@@ -68,6 +72,17 @@
 
 
  <style>
+
+
+ .menu{
+   margin: auto;
+   text-align: left;
+   width: 50%;
+   width: 1440px;
+   /*background-color: #04AA6D;*/
+ }
+
+
  *{
    /* margin-left: 10%;
     margin-right: 10%;*/
@@ -87,11 +102,13 @@
 
 
  .topnav {
-   text-align: center;
+
    background: linear-gradient(to right, #ffc11c 0%, #efb721 50%,#ffc11c 100%);
    -webkit-box-shadow: inset 0px 0px 20px -4px rgba(0,0,0,0.55);
    -moz-box-shadow: inset 0px 0px 20px -4px rgba(0,0,0,0.55);
    box-shadow: inset 0px 0px 20px -4px rgba(0,0,0,0.55);
+
+
  }
 
  .topnav a {
@@ -136,6 +153,7 @@
  }
 
  @media screen and (max-width: 800px) {
+
    ul li{ margin-left: 7px; font-size: 12px; }
    ul li:nth-child(1){ display: none; }
    ul li:nth-child(2){ display: none; }
@@ -145,9 +163,6 @@
      float: right;
      display: block;
    }
- }
-
- @media screen and (max-width: 800px) {
    .topnav.responsive {position: relative;}
    .topnav.responsive .icon {
      position: absolute;
@@ -158,7 +173,14 @@
      display: block;
      text-align: left;
    }
+   .menu{
+     margin: 0px;
+     text-align: left;
+     width: auto;
+   }
  }
+
+
 
  #vonal{
    background-color: #ffc11c;
@@ -176,5 +198,6 @@
    text-align-last: center;
    text-align: center;
  }
+
 
  </style>

@@ -2,7 +2,10 @@
 
   <div class="gepkolcsonzes">
 
-    <h4>Gépkölcsönzés</h4>
+
+      <h4 >Gépkölcsönzés</h4>
+
+
 
 
 
@@ -254,7 +257,9 @@ export default {
   #title{
     display: inline-table;
   }
+  #picture{
 
+  }
 }
 
 </style>
