@@ -66,9 +66,9 @@ export default {
           discription: "Teljesítmény: 1 200 W Teljes hossz: 525 mm Lökésszám: 15 000 / perc Gyalulási szélesség: 170 mm Vágásvastagság: 2 mm Méret (hossz x szélesség x magasság): 530 mm x 240 mm x 150 mm Súly: 9 kg...",
           icon: require('../assets/machines/gyalu.png'),
           link: "gyalu",
-          price1: 6500,
-          price2: 6100,
-          price3: 5800,
+          price1: 7000,
+          price2: 6600,
+          price3: 6300,
           height: 120
         },
         {
@@ -110,9 +110,9 @@ export default {
           discription: "Max. felületteljesítmény: 20-25 m2/h Légmennyiség: 74 l/s Vákuum: 254mbar/25,4kPa Permetmennyiség: 1 l/min Permetnyomás: 1 bar Friss-/szennyezettvíz-tartály: 10-9 l Turbina teljesítménye: 1250 W Szivattyú teljesítménye: 40 W Feszültség: 220-240 V Frekvencia: 50-60 Hz Kábel hossza: 7,5 m Súly kiegészítők nélkül: 10,5 kg Méretek (hosszúság x szélesség x magasság): 690 mm x 325 mm x 440 mm...",
           icon: require('../assets/machines/szonyegtisztito.png'),
           link: "szonyegtisztito",
-          price1: 4000,
-          price2: 3800,
-          price3: 3500,
+          price1: 4500,
+          price2: 4300,
+          price3: 4000,
           height: 180
         },
         {
@@ -143,9 +143,9 @@ export default {
           discription: "Elektromos motor: 230V/50Hz Teljesítmény: 1600 W Fordulatszám terhelés nélkül: 560 fordulat/perc Ütés: 3530 ütés/perc Ütés erőssége: 9 J Max. furat átmérő: 40 mm beton, 65 mm fa. Tömeg: 7,3 kg...",
           icon: require('../assets/machines/furokalapacs.jpg'),
           link: "furokalapacs",
-          price1: 3000,
-          price2: 2800,
-          price3: 2500,
+          price1: 3500,
+          price2: 3300,
+          price3: 3000,
           height: 100
         },
         {
@@ -187,9 +187,9 @@ export default {
           discription: "Hálózati feszültség: 230 V Névleges teljesítményfelvétel: 200 W Max. vágáshossz: 1370 mm Max. vágásszélesség: 330 mm Vonalzó méretek: 1000 mm; 0-90° Védelmi osztály: IP44 Súly: 15,6 kg Méretek: 1700 mm x 430 mm x 170 mm...",
           icon: require('../assets/machines/polisztirol.jpg'),
           link: "polisztirol",
-          price1: 5000,
-          price2: 4600,
-          price3: 4300,
+          price1: 5500,
+          price2: 5100,
+          price3: 4800,
           height: 170
         },
         {
@@ -209,9 +209,9 @@ export default {
           discription: "Motor térfogat: 420 cm3 Állandó teljesítmény: 4000 W Max. teljesítmény: 4500 W Feszültség: 230 V /= 12 V Zajszint: 96 dB Üzemanyag tank mérete: 28 liter Tömege: 65 kg Teljesítmény SAE J1940 szerint: 10,7 HP * Áram 230V/12V: 17,4/6A 4-ütemű motor (HECHT OHV) Egyfázisú...",
           icon: require('../assets/machines/aramfejleszto.jpg'),
           link: "aramfejleszto",
-          price1: 7000,
-          price2: 6600,
-          price3: 6200,
+          price1: 8000,
+          price2: 7600,
+          price3: 7200,
           height: 170
         },
         {
@@ -220,9 +220,9 @@ export default {
           discription: "2 db nagyméretű érzékelőlap További érzékelőlapokkal bővíthető Kettős sziréna 9 fokozatú érzékenység Eseménymemória Működése: 2 db 1,5 V AAA elemmel...",
           icon: require('../assets/machines/legzes.png'),
           link: "legzes",
-          price1: "",
-          price2: "",
-          price3: "",
+          price1: 3500,
+          price2: 3000,
+          price3: 17000,
           height: 140
         },
         {
@@ -231,9 +231,9 @@ export default {
           discription: "Mérési határa: 20 kg. Beosztása: 5 gr Nagy LCD kijelző Méretek: 52 cm x 32 cm x 5,6 cm Működése: 4 db 1,5 V AAA elemmel...",
           icon: require('../assets/machines/merleg.png'),
           link: "merleg",
-          price1: "",
-          price2: "",
-          price3: "",
+          price1: 3000,
+          price2: 2500,
+          price3: 15000,
           height: 130
         }
       ]
